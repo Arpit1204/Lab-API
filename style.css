@@ -1,0 +1,28 @@
+body{
+  background: linear-gradient(to right, rgb(187, 107, 32),green)
+}
+
+#articleGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1em;
+
+}
+.article{
+  position: relative;
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px 2px ;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 10%;
+  padding: 10%;
+  width: 40%;
+}
+.article:hover{
+  transform: scale(1.2);
+  background-color: rgb(179, 190, 22);
+}
+.article img{
+  height: 200px;
+  width: 200px;
+}
